@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cucumber": "cucumber-js",
+    "cucumber": "node ./node_modules/.bin/cucumber-js",
     "regression": "npx playwright test --reporter=line,allure-playwright"
   },
   "keywords": [],
